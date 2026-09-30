@@ -10,5 +10,8 @@ android {
 dependencies {
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.webkit:webkit:1.11.0")
-    implementation("com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.2.7")
+    implementation("com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.2.7") {
+        exclude(group = "com.gyf.immersionbar")
+        exclude(group = "com.zlc.glide")
+    }
 }
