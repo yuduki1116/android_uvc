@@ -10,5 +10,5 @@ android {
 dependencies {
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.webkit:webkit:1.11.0")
-    implementation("com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.3.3")
+    implementation("com.github.jiangdongguo.AndroidUSBCamera:libausbc:3.2.7")
 }
